@@ -1,0 +1,108 @@
+table.daext-items .icons-container {
+    width: 76px !important;
+    min-width: 76px !important;
+}
+
+.daext-items th:first-of-type {
+    width: 140px;
+}
+
+.daext-form-container {
+    width: auto;
+    max-width: 1200px;
+}
+
+#title {
+    width: 217px;
+}
+
+#editor-container {
+    width: calc(100% - 28px);
+    display: flex;
+    float: left;
+}
+
+#content {
+    flex-basis: 50%;
+    height: 600px;
+    float: left;
+    margin: 0 auto;
+    resize: none;
+    box-sizing: border-box;
+    font-family: monospace !important;
+    border-color: #dddddd !important;
+}
+
+/* Editor render style -------------------------------------------------------------------------------------- */
+
+#editor-render {
+    flex-basis: 50%;
+    height: 600px;
+    border-width: 1px 1px 1px 0;
+    border-color: #dddddd;
+    border-style: solid;
+    box-sizing: border-box;
+    padding: 16px;
+    overflow-y: auto;
+    background: #f7f7f7;
+}
+
+#editor-render h1,
+#editor-render h2,
+#editor-render h3,
+#editor-render h4,
+#editor-render h5,
+#editor-render h6 {
+    font-weight: 700;
+    line-height: 1.5em !important;
+}
+
+#editor-render h1 {
+    font-size: 1.6em !important;
+}
+
+#editor-render h2 {
+    font-size: 1.4em !important;
+}
+
+#editor-render h3 {
+    font-size: 1.2em !important;
+}
+
+#editor-render img {
+    max-width: 100%;
+}
+
+#editor-render strong {
+    font-weight: 700;
+}
+
+#editor-render table {
+    table-layout: auto;
+    border-collapse: collapse;
+}
+
+#editor-render table th {
+    font-weight: 700;
+}
+
+#editor-render table th,
+#editor-render table td {
+    border: 1px solid #dcdcde;
+    padding: 3px;
+}
+
+#editor-render code {
+    background-color: #ebebeb;
+}
+
+#editor-render hr {
+    border-top: 1px solid #dcdcde;
+    border-bottom: none;
+}
+
+#editor-render ul {
+    margin-left: 2em;
+    list-style-type: disc;
+}
+
